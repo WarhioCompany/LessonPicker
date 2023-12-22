@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>341</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>173</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>50</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Futura Md BT</family>
+       <pointsize>21</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Wednesday</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_1">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_2">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_3">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_4">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_5">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_6">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_7">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="class_8">
+     <property name="minimumSize">
+      <size>
+       <width>80</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>11111</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    min-width: 6em;
+	background-color: #d1d1d1
+}
+QComboBox:on {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+QComboBox QAbstractItemView {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    box-shadow: transparent;
+    padding: 4px 4px 4px 4px
+}
+QComboBox::drop-down {
+    border-color: transparent;
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Алгебра</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Английский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Биология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Вероятность и статистика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>География</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Геометрия</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Информатика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>История</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Литература</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Обществознание</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ОБЖ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Русский язык</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Технология</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Физическая культура</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Химия</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
